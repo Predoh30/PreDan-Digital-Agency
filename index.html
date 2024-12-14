@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <title>PreDan | Digital Agency</title>
+  <meta name="author" content="Predoh">
+  <meta name="description" content="Web Agency">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h3 class="logo">PreDan</h3>
+    
+    <i onclick=shownavbar() class="fa-solid fa-bars-staggered"></i>
+  </header>
+  
+  <div class="navbar">
+      <nav>
+        <ul>
+          <i onclick=hidenavbar() class="fa-solid fa-xmark"></i>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+  <main>
+    <h2>Digital Creative Agency</h2>
+    <p><small>Let us handle your Graphics Design and Web Design needs</small></p>
+    
+    <div class="btn"><a href="#">Learn more</a></div>
+    
+  </main>
+  
+</body>
+
+<script>
+function shownavbar() {
+  const navbar = document.querySelector('.navbar')
+  navbar.style.display = 'flex'
+}
+function hidenavbar() {
+  const navbar = document.querySelector('.navbar')
+  navbar.style.display = 'none'
+}
+</script>
+
+</html>
