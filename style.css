@@ -82,6 +82,16 @@ main a{
   border-radius: 5px;
   margin-top: 8px;
 }
+main a:hover{
+  text-decoration: none;
+  color: white;
+  background-color:  transparent;
+  padding: 8px 8px;
+  border: 2px solid #ff3d00;
+  border-radius: 5px;
+  margin-top: 8px;
+  transition: 0.3s ease all;
+}
 main .btn{
   margin-top: 60px;
 }
