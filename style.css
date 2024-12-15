@@ -20,7 +20,7 @@ header .logo{
 }
 nav{
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   backdrop-filter: blur(10px);
   width: 100%;
   height: 100%;
