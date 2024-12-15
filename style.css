@@ -12,11 +12,11 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 header .logo{
   color: #ff3d00;
-  margin-left: 10px;
+  margin-left: 15px;
   font-size: 25px;
 }
 nav{
@@ -24,7 +24,7 @@ nav{
   background-color: #fff;
   backdrop-filter: blur(30px);
   width: 100%;
-  height: 180px;
+  height: 200px;
   z-index: 10;
 }
 ul{
@@ -32,8 +32,9 @@ ul{
   flex-direction: column;
 }
 .navbar{
-  margin-top: 15px;
+  margin-top: -34px;
   display: none;
+  z-index: 1000;
 }
 .navbar nav ul li{
   list-style: none;
@@ -55,20 +56,23 @@ ul{
   cursor: pointer;
 }
 .navbar nav ul i{
-  padding-left: 5px;
+  padding-left: 15px;
+  padding-top: 15px;
   color: #ff3d00;
   font-size: 20px;
 }
 header i{
-  margin-right: 10px;
+  margin-right: 15px;
   font-size: 20px;
 }
 main{
   margin-top: 2px;
-  position: absolute;
+  margin-left: 15px;
+  position: fixed;
 }
 main h2{
   margin-top: 150px;
+  font-size: 38px;
 }
 main a{
   text-decoration: none;
@@ -79,5 +83,5 @@ main a{
   margin-top: 8px;
 }
 main .btn{
-  margin-top: 15px;
+  margin-top: 60px;
 }
