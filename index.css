@@ -210,3 +210,46 @@ footer .logo{
 .grid3 ul{
     margin-top: 1rem;
 }
+@media (max-width: 768px) {
+    main h2{
+        font-size: 35px;
+    }
+    .input-2 input{
+        width: 20rem;
+    }
+    .third{
+        height: fit-content;
+        display: grid;
+    }
+    .third h2{
+        font-size: 2rem;
+    }
+    .third{
+        align-items: center;
+        font-size: larger;
+    }
+    .third .col2{
+        margin-left: 3rem;
+        font-size: larger;
+    }
+    .third .col3{
+        margin-left: 3rem;
+        font-size: larger;
+        margin-bottom: 3rem;
+    }
+    .fourth{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .fourth .col11{
+        text-align: center;
+    }
+    .fourth .col22{
+        margin: 0 auto;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .fgrid{
+        font-size: smaller;
+    }
+}
